@@ -46,4 +46,8 @@ public class Dosen {
     public void setProdi(String prodi){
         this.prodi = prodi;
     }
+
+    public String toString() {
+        return nama + " (" + nip + ") - " + prodi;
+    }
 }

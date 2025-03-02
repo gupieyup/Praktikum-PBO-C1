@@ -35,4 +35,8 @@ public class Kendaraan {
     public void setJenis(String jenis){
         this.jenis = jenis;
     }
+
+    public String toString() {
+        return jenis + " - " + noPlat;
+    }
 }

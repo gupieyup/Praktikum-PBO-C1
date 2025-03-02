@@ -23,6 +23,8 @@ public class Mahasiswa {
     this.nama = "";
     this.prodi = "";
     this.listMatKul = new ArrayList<>(50); // Inisialisasi ArrayList kosong
+    this.dosenWali = new Dosen();
+    this.kendaraan = new Kendaraan();
   }
 
   public Mahasiswa(String nim, String nama, String prodi){
@@ -30,6 +32,8 @@ public class Mahasiswa {
     this.nama = nama;
     this.prodi = prodi;
     this.listMatKul = new ArrayList<>(50);
+    this.dosenWali = new Dosen();
+    this.kendaraan = new Kendaraan();
   }
 
   public String getNim(){
